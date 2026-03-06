@@ -9,14 +9,12 @@
       "storage"
   ],
   "host_permissions": [
-      "https://chatgpt.com/*",
-      "https://www.thesaurus.com/*"
+      "https://chatgpt.com/*"
   ],
   "content_scripts": [
       {
           "matches": [
-              "https://chatgpt.com/*",
-              "https://www.thesaurus.com/*"
+              "https://chatgpt.com/*"
           ],
           "js": ["content.js"]
       }
